@@ -334,7 +334,7 @@ export const drawXAxisLabels = (sortedData, gap, color = '#000000', showEvenNumb
   return (
     <View style={{
       width: '100%',
-      paddingVertical: 10,
+      paddingVertical: 17,
       height: 10
     }}>
       {sortedData.map((data, i) => {
